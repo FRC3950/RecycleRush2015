@@ -97,7 +97,7 @@ void Robot::DisabledInit(){
 	// Skipping is only true when the Robot has entered autonomous mode
 	// and is now transitioning through disable mode potentially on its
 	// way to teleop mode.
-	if (!skiDisableModeActions)
+	if (!skipDisableModeActions)
 	{
 		// Make sure the lift subsystem starts in the down position when
 		// the robot is enabled the next time.
